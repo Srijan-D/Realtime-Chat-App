@@ -1,0 +1,49 @@
+.logo{
+    display: block; 
+    /* as it is an image therefore only margin auto wont help */
+    margin: auto;
+    width: 200px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    margin: auto;
+    border: 2px solid black;
+    max-width: 900px;
+    height: 65vh;
+    overflow-y: auto;
+    /* auto only shows when overflowing else we see scroll even if no overflow */
+    
+}
+#messageInp{
+    border: 2px solid black;
+    width: 49%;
+    height: 20px;    
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1110px;
+    padding: 2px;
+}
+
+.message{
+    width: 30%;
+    background-color: cyan;
+    margin: 15px 2px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.right{
+float:right;
+clear: both;
+}
+.left{
+float: left;
+clear: both;
+}
